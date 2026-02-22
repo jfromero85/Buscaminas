@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neon Minesweeper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-grid" aria-hidden="true"></div>
+    <main class="app">
+      <header class="panel top-panel">
+        <div>
+          <h1>Buscaminas Neo</h1>
+          <p>Encuentra todas las celdas seguras sin activar una mina.</p>
+        </div>
+        <button id="new-game" class="glow-button">Nueva partida</button>
+      </header>
+
+      <section class="panel hud" aria-label="Marcadores">
+        <div class="counter">
+          <span class="label">Minas</span>
+          <strong id="mine-counter">0</strong>
+        </div>
+        <div class="counter">
+          <span class="label">Tiempo</span>
+          <strong id="timer">0</strong>
+        </div>
+        <div class="counter">
+          <span class="label">Estado</span>
+          <strong id="status">Jugando</strong>
+        </div>
+      </section>
+
+      <section class="panel game-panel">
+        <div id="board" class="board" role="grid" aria-label="Tablero de buscaminas"></div>
+      </section>
+
+      <p class="tips">Click izquierdo para revelar · Click derecho para marcar bandera 🚩</p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
