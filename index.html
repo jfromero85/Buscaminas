@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atelier Chronométrique — Legacy in Motion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">Maison d'Horlogerie</p>
+      <h1>Legacy in Motion</h1>
+      <p class="lede">
+        A contemporary Swiss-inspired mechanism revealed one element at a time.
+        Scroll to witness each precision component glide into place.
+      </p>
+    </header>
+
+    <main class="experience" id="experience">
+      <div class="watch-canvas" aria-hidden="true">
+        <div class="watch-glow"></div>
+        <img src="assets/piece-base.svg" class="watch-piece" data-piece="base" alt="" />
+        <img src="assets/piece-plate.svg" class="watch-piece" data-piece="plate" alt="" />
+        <img src="assets/piece-gear.svg" class="watch-piece" data-piece="gear" alt="" />
+        <img src="assets/piece-balance.svg" class="watch-piece" data-piece="balance" alt="" />
+        <img src="assets/piece-hands.svg" class="watch-piece" data-piece="hands" alt="" />
+        <img src="assets/piece-bezel.svg" class="watch-piece" data-piece="bezel" alt="" />
+      </div>
+
+      <section class="story-step left" data-step="1" data-target="base">
+        <article>
+          <h2>Foundation Plate</h2>
+          <p>The brushed rhodium foundation anchors every bridge and wheel, milled to micron-level tolerances for lifelong stability.</p>
+        </article>
+      </section>
+
+      <section class="story-step right" data-step="2" data-target="plate">
+        <article>
+          <h2>Bridge Architecture</h2>
+          <p>Faceted bridges with polished bevels are arranged for both serviceability and theatre, exposing mechanics as crafted sculpture.</p>
+        </article>
+      </section>
+
+      <section class="story-step left" data-step="3" data-target="gear">
+        <article>
+          <h2>Transmission Train</h2>
+          <p>Each gear tooth profile is optimized for smooth energy transfer, transforming stored spring force into graceful, regulated motion.</p>
+        </article>
+      </section>
+
+      <section class="story-step right" data-step="4" data-target="balance">
+        <article>
+          <h2>Balance Resonance</h2>
+          <p>The oscillating heart beats at a measured cadence, adjusted by hand to maintain exceptional chronometric reliability.</p>
+        </article>
+      </section>
+
+      <section class="story-step left" data-step="5" data-target="hands">
+        <article>
+          <h2>Hand Finishing</h2>
+          <p>Tempered-steel hands float above the dial plane, mirror-polished for luminous depth and instant legibility.</p>
+        </article>
+      </section>
+
+      <section class="story-step right" data-step="6" data-target="bezel">
+        <article>
+          <h2>Encased Mastery</h2>
+          <p>A sapphire-lined bezel completes the composition, fusing traditional craft codes with a distinctly modern silhouette.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Atelier Chronométrique • Prototype landing experience</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
